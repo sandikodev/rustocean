@@ -1,0 +1,28 @@
+{
+	"name": "rustocean",
+	"displayName": "rustocean",
+	"description": "Opinionated rust extentions pack, just rust dont add bloated stuff!",
+	"version": "0.0.1",
+	"publisher": "sandikodev",
+	"icon": "images/logo.png",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/sandikodev/rustocean.git"
+	},
+	"engines": {
+		"vscode": "^1.54.0"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"extensionPack": [
+		"rust-lang.rust-analyzer",
+		"1YiB.rust-bundle",
+		"dustypomerleau.rust-syntax",
+		"serayuzgur.crates",
+		"hdevalke.rust-test-lens",
+		"tamasfe.even-better-toml",
+		"vadimcn.vscode-lldb",
+		"usernamehw.errorlens"
+	]
+}
